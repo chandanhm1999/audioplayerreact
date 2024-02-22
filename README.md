@@ -8,20 +8,14 @@ Need repo:
 ## Missing Dependency 'react-dom/client':
 The error regarding 'react-dom/client' suggests that there might be an issue with the version of 'react-scripts'. You can try updating 'react-scripts' to the latest version:
 
-bash
-Copy code
-npm install react-scripts@latest
-After updating 'react-scripts', restart your development server:
+## npm install react-scripts@latest
+#### After updating 'react-scripts', restart your development server:
 
-bash
-Copy code
-npm start
+## npm start
 Failed to load ESLint config "react-app":
 This issue can occur if there's a problem with your ESLint configuration or if ESLint is not properly installed. Make sure you have ESLint installed as a devDependency:
 
-bash
-Copy code
-npm install eslint --save-dev
+## npm install eslint --save-dev
 Additionally, ensure that your 'package.json' file has the correct ESLint configuration. You can use the following 'scripts' configuration:
 
 json
@@ -32,9 +26,7 @@ Copy code
 }
 After installing ESLint and configuring the script, run:
 
-bash
-Copy code
-npm run lint
+## npm run lint
 Fix any ESLint errors reported.
 
 After applying these changes, your project should hopefully compile without errors. If you encounter any more issues or have further questions, feel free to ask!
