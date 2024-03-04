@@ -5,11 +5,11 @@ Music player done in react!!!
 ##### : Missing Dependency 'react-icons/fa':
 # npm install react-icons
 
-## Missing Dependency 'react-dom/client':
+##### Missing Dependency 'react-dom/client':
 The error regarding 'react-dom/client' suggests that there might be an issue with the version of 'react-scripts'. You can try updating 'react-scripts' to the latest version:
 
 ## npm install react-scripts@latest
-#### After updating 'react-scripts', restart your development server:
+###### After updating 'react-scripts', restart your development server:
 
 ## npm start
 Failed to load ESLint config "react-app":
